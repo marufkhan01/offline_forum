@@ -1,35 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="231cb1c1-1a57-4b7d-b478-31817bfeeae4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/maruf.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/offline-forum.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/__tests__/AvatarSelection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/__tests__/Button.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/__tests__/Comments.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/__tests__/CreateNewComment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/__tests__/CreateNewPost.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/__tests__/PersonSwitcher.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/__tests__/Posts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/__tests__/SingleComment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/__tests__/SinglePost.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/__tests__/__snapshots__/App.js.snap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/__tests__/__snapshots__/AvatarSelection.js.snap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/__tests__/__snapshots__/Button.js.snap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/__tests__/__snapshots__/Comments.js.snap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/__tests__/__snapshots__/CreateNewComment.js.snap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/__tests__/__snapshots__/CreateNewPost.js.snap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/__tests__/__snapshots__/PersonSwitcher.js.snap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/__tests__/__snapshots__/Posts.js.snap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/__tests__/__snapshots__/SingleComment.js.snap" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/__tests__/__snapshots__/SinglePost.js.snap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/__tests__/App.js" afterPath="$PROJECT_DIR$/src/__tests__/App.js" />
-    </list>
+    <list default="true" id="231cb1c1-1a57-4b7d-b478-31817bfeeae4" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
