@@ -5,12 +5,12 @@ import App from '../components/App';
 
 
 
-
 it('should call componentDidMount', () => {
     const spy = jest.spyOn(App.prototype,'componentDidMount');
     const wrapper = mount(<App />);
     expect(spy).toHaveBeenCalled();
 });
+
 
 it('call function fetchCurrentpersona', () => {
     const wrapper = shallow(<App />);
