@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateNewComment component should render as expected 1`] = `
+<form
+  className="container mx-auto flex flex-col p-6"
+  onSubmit={[Function]}
+>
+  <label
+    className="mb-2"
+    htmlFor="comment"
+  >
+    Comment
+  </label>
+  <textarea
+    className="shadow rounded border mb-2 p-2"
+    id="comment"
+    name="comment"
+    onChange={[Function]}
+    value=""
+  />
+  <input
+    className="bg-indigo-dark hover:bg-indigo-darker text-white font-bold py-2 px-4 rounded-full"
+    type="submit"
+    value="Comment"
+  />
+</form>
+`;

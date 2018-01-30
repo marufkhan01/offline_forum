@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Posts component should render as expected 1`] = `
+<div
+  className="flex flex-wrap mx-auto pt-8"
+>
+  <CreateNewPost
+    updatePosts={[Function]}
+  />
+</div>
+`;
