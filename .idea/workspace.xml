@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="231cb1c1-1a57-4b7d-b478-31817bfeeae4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/__tests__/Bot.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/__tests__/Message.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/__tests__/App.js" afterPath="$PROJECT_DIR$/src/__tests__/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/__tests__/CreateNewComment.js" afterPath="$PROJECT_DIR$/src/__tests__/CreateNewComment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/__tests__/Posts.js" afterPath="$PROJECT_DIR$/src/__tests__/Posts.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/__tests__/__snapshots__/Button.js.snap" afterPath="$PROJECT_DIR$/src/__tests__/__snapshots__/Button.js.snap" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,25 +13,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SingleComment.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/SingleComment.js">
+      <file leaf-file-name="Button.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/__tests__/Button.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateNewComment.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/CreateNewComment.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
+            <state relative-caret-position="0">
               <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,8 +62,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="276" />
-    <option name="y" value="23" />
+    <option name="x" value="-965" />
+    <option name="y" value="80" />
     <option name="width" value="1004" />
     <option name="height" value="542" />
   </component>
@@ -196,15 +178,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517344866470</updated>
-      <workItem from="1517344867787" duration="7715000" />
+      <workItem from="1517344867787" duration="8468000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7715000" />
+    <option name="totallyTimeSpent" value="8468000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="276" y="23" width="1004" height="542" extended-state="0" />
+    <frame x="-965" y="80" width="1004" height="542" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22211155" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
@@ -343,16 +325,6 @@
         <state relative-caret-position="90">
           <caret line="10" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="3" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/__tests__/Button.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -504,22 +476,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CreateNewComment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/SingleComment.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/CreateNewComment.js">
+    <entry file="file://$PROJECT_DIR$/src/__tests__/Button.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
+        <state relative-caret-position="0">
           <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
