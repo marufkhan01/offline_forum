@@ -1,10 +1,24 @@
 import React from 'react';
-import { shallow, render } from 'enzyme';
+import { shallow, mount } from 'enzyme';
 import toJson from 'enzyme-to-json';
 
 import Posts from '../components/Posts';
 
+it('calls componentDidMount', () => {
+    const spy = jest.spyOn(Posts.prototype,'componentDidMount');
+    const wrapper = mount(<Posts />);
+    expect(spy).toHaveBeenCalled();
+});
 
+it('call function setPostFromLocalStorage', () => {
+    const wrapper = shallow(<Posts />);
+    expect(wrapper.instance().setPostFromLocalStorage());
+});
+
+it('call function removePost', () => {
+    const wrapper = shallow(<Posts />);
+    expect(wrapper.instance().removePost());
+});
 
 it('Posts component should render as expected',() =>{
     const component = shallow(<Posts />);
