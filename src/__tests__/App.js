@@ -31,11 +31,23 @@ it('call function changePage', () =>{
     expect(wrapper.state('currentPage')).toBe("bot");
 });
 
+it('call function changePage', () =>{
+    const wrapper = mount(<App />);
+    wrapper.setState({ currentPage: "bot" });
+    wrapper.instance().changePage();
+    expect(wrapper.state('currentPage')).toBe("home");
+});
+
 it('App component should render as expected',() =>{
     const wrapper = shallow(<App />);
     expect(wrapper.contains('Talk to a real human')).toBe(true);
 });
 
+it('verify class', () => {
+    const clickFun = jest.fn();
+    const wrapper = shallow(<App onClick={clickFun}/>);
+    expect(wrapper.find('div').hasClass('mt-8 mx-auto sm:w-full md:w-3/4 lg:w-2/3')).toBe(true);
+});
 
 it('App component should render as expected',() =>{
     const component = shallow(<App />);

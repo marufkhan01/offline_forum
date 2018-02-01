@@ -40,6 +40,11 @@ describe('Comments', () => {
 
     });
 
+    it('verify class', () => {
+        const clickFun = jest.fn();
+        const wrapper = shallow(<Comments onClick={clickFun}/>);
+        expect(wrapper.find('div').hasClass('py-2')).toBe(true);
+    });
 
     it('Comments component should render as expected', () => {
         const component = shallow(<Comments/>);
