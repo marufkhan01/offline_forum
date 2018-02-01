@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SingleComment component should render as expected 1`] = `
+<div
+  className="py-2 border-b relative"
+>
+  <Button
+    className="absolute pin-t pin-r my-3"
+    danger={true}
+    onClick={[Function]}
+  >
+    x
+  </Button>
+  <p
+    className="text-grey-darker mb-4"
+  />
+  <p
+    className="text-grey-dark mb-4"
+  >
+    Posted by: 
+     @ 
+  </p>
+</div>
+`;

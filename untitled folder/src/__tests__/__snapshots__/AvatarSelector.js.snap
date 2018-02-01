@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AvatarSelector component should render as expected 1`] = `
+<img
+  alt="Avatar"
+  className="w-12 rounded-full"
+  src="zac.png"
+  style={
+    Object {
+      "transform": "translateY(20px)",
+    }
+  }
+/>
+`;
