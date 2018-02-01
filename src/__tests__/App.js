@@ -3,7 +3,13 @@ import { shallow,mount } from 'enzyme';
 import toJSON from 'enzyme-to-json';
 import App from '../components/App';
 
-
+it('should  state with currentPersona', () => {
+    const wrapper = shallow(<App />);
+    const person = 'Steffe';
+    wrapper.setState({ 'currentPersona': person});
+    const current = wrapper.state().currentPersona;
+    expect(current).toBe('Steffe');
+});
 
 it('should call componentDidMount', () => {
     const spy = jest.spyOn(App.prototype,'componentDidMount');
@@ -18,17 +24,17 @@ it('call function fetchCurrentpersona', () => {
 });
 
 
-it('call function changePage', () => {
-    const wrapper = shallow(<App />);
-    expect(wrapper.instance().changePage());
+it('call function changePage', () =>{
+    const wrapper = mount(<App />);
+    wrapper.setState({ currentPage: "home" });
+    wrapper.instance().changePage();
+    expect(wrapper.state('currentPage')).toBe("bot");
 });
 
 it('App component should render as expected',() =>{
     const wrapper = shallow(<App />);
     expect(wrapper.contains('Talk to a real human')).toBe(true);
 });
-
-
 
 
 it('App component should render as expected',() =>{

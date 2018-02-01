@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`CreateNewComment component should render as expected 1`] = `
+exports[`create comment CreateNewComment component should render as expected 1`] = `
 <form
   className="container mx-auto flex flex-col p-6"
   onSubmit={[Function]}
