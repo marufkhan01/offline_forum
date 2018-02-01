@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow,mount } from 'enzyme';
-import toJson from 'enzyme-to-json';
+import toJSON from 'enzyme-to-json';
 import App from '../components/App';
 
 
@@ -28,8 +28,11 @@ it('App component should render as expected',() =>{
     expect(wrapper.contains('Talk to a real human')).toBe(true);
 });
 
+
+
+
 it('App component should render as expected',() =>{
     const component = shallow(<App />);
-    const tree = toJson(component);
+    const tree = toJSON(component);
     expect(tree).toMatchSnapshot();
 });

@@ -1,12 +1,12 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import toJson from 'enzyme-to-json';
+import toJSON from 'enzyme-to-json';
 
 import Message from '../components/Bot/Message';
 
-it('Button component should render as expected',() =>{
+it('Message component should render as expected',() =>{
     const component = shallow(<Message />);
-    const tree = toJson(component);
+    const tree = toJSON(component);
     expect(tree).toMatchSnapshot();
 });
 

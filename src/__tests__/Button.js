@@ -1,6 +1,6 @@
 import React from 'react';
-import { shallow,mount, render } from 'enzyme';
-import toJson from 'enzyme-to-json';
+import { shallow,mount } from 'enzyme';
+import toJSON from 'enzyme-to-json';
 
 import Button from '../components/Button';
 
@@ -13,9 +13,8 @@ it('simulate click event of button', () => {
 
 
 
-
 it('Button component should render as expected',() =>{
     const component = shallow(<Button />);
-    const tree = toJson(component);
+    const tree = toJSON(component);
     expect(tree).toMatchSnapshot();
 });

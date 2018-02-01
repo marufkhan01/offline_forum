@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Button component should render as expected 1`] = `
+exports[`Bot component should render as expected 1`] = `
 <div
   className="mx-auto w-1/2 h-auto mb-4 mt-8 pt-8"
 >

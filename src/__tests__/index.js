@@ -2,14 +2,12 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import toJSON from 'enzyme-to-json';
 
-
-import SinglePost from '../components/SinglePost';
-
+import index from './index';
 
 
 
-it('SinglePost component should render as expected',() =>{
-    const component = shallow(<SinglePost />);
+it('Index component should render as expected',() =>{
+    const component = shallow(<index />);
     const tree = toJSON(component);
     expect(tree).toMatchSnapshot();
 });

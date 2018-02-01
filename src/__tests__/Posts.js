@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
-import toJson from 'enzyme-to-json';
+import toJSON from 'enzyme-to-json';
 
 import Posts from '../components/Posts';
 
@@ -22,6 +22,6 @@ it('call function removePost', () => {
 
 it('Posts component should render as expected',() =>{
     const component = shallow(<Posts />);
-    const tree = toJson(component);
+    const tree = toJSON(component);
     expect(tree).toMatchSnapshot();
 });
